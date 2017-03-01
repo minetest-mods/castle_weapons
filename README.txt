@@ -11,6 +11,6 @@ see: LICENSE
 
 =-=-=-=-=-=-=-=-=-=
 
-This is a mod all about creating castles and castle dungeons.
+This mod contains a crossbow with bolts, suitable for ranged combat. The crossbow is sourced from the "shooter" mod.
 
-=-=-=-=-=-=-=-=-=-=
+It also contains a battleaxe for fighting up close and personal.
