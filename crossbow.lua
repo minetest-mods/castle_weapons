@@ -15,6 +15,7 @@ minetest.register_alias("crossbow", "castle_weapons:crossbow")
 minetest.register_alias("bolt", "castle_weapons:crossbow_bolt")
 minetest.register_alias("castle:crossbow", "castle_weapons:crossbow")
 minetest.register_alias("castle:bolt", "castle_weapons:crossbow_bolt")
+minetest.register_alias("castle:crossbow_bolt", "castle_weapons:crossbow_bolt")
 minetest.register_alias("castle:crossbow_loaded", "castle_weapons:crossbow_loaded")
 
 -- internationalization boilerplate
