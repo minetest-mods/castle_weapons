@@ -18,9 +18,19 @@ minetest.register_alias("castle:bolt", "castle_weapons:crossbow_bolt")
 minetest.register_alias("castle:crossbow_bolt", "castle_weapons:crossbow_bolt")
 minetest.register_alias("castle:crossbow_loaded", "castle_weapons:crossbow_loaded")
 
--- internationalization boilerplate
-local MP = minetest.get_modpath(minetest.get_current_modname())
-local S, NS = dofile(MP.."/intllib.lua")
+-- Used for localization, choose either built-in or intllib.
+
+local MP, S, NS = nil
+
+if (minetest.get_modpath("intllib") == nil) then
+	S = minetest.get_translator("castle_weapons")
+
+else
+	-- internationalization boilerplate
+	MP = minetest.get_modpath(minetest.get_current_modname())
+	S, NS = dofile(MP.."/intllib.lua")
+
+end
 
 local crossbow={}
 

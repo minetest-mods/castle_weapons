@@ -1,0 +1,5 @@
+# textdomain:castle_weapons
+
+Battleaxe=
+Bolt=
+Crossbow=
